@@ -1,0 +1,21 @@
+{
+  "calendar": {
+    "name": "bs",
+    "month_lengths": {
+      "2081": [31, 31, 32, 32, 31, 30, 30, 30, 29, 30, 30, 30],
+      "2082": [30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30]
+    },
+    "weekday_anchor": { "date": [2081, 12, 30], "weekday": 6 }
+  },
+  "interval": { "start": [2082, 3, 15], "end": [2082, 1, 1] },
+  "week_rest": [5, 6],
+  "week_start": 6,
+  "day_hours": 8,
+  "holidays": [
+    { "date": [2082, 2, 10], "kind": "hours", "hours": 4, "name": "节前半日" }
+  ],
+  "queries": [
+    { "kind": "count" },
+    { "kind": "weeks" }
+  ]
+}

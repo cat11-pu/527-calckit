@@ -1,0 +1,35 @@
+{
+  "calendar": {
+    "name": "bs",
+    "month_lengths": {
+      "2081": [31, 31, 32, 32, 31, 30, 30, 30, 29, 30, 30, 30],
+      "2082": [30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30]
+    },
+    "weekday_anchor": { "date": [2081, 12, 30], "weekday": 6 }
+  },
+  "interval": { "start": [2082, 1, 1], "end": [2082, 3, 15] },
+  "week_rest": [5],
+  "week_start": 6,
+  "day_hours": 8,
+  "holidays": [
+    { "date": [2082, 1, 1], "kind": "full", "name": "新年" },
+    { "date": [2082, 3, 12], "kind": "full", "name": "政令假" },
+    { "date": [2082, 1, 6], "kind": "full", "name": "周休撞假" },
+    { "date": [2082, 2, 10], "kind": "hours", "hours": 4, "name": "节前半日" },
+    { "date": [2081, 12, 30], "kind": "full", "name": "去年年末假" },
+    { "date": [2082, 1, 6], "kind": "full", "name": "重复登记" },
+    { "date": [2082, 2, 20], "kind": "hours", "hours": 8, "name": "整日折算" },
+    { "date": [2082, 3, 5], "kind": "hours", "hours": 0, "name": "误填小时" },
+    { "date": [2082, 4, 1], "kind": "full", "name": "下月假" },
+    { "date": [2082, 2, 18], "kind": "full", "name": "周六撞假" }
+  ],
+  "queries": [
+    { "kind": "count" },
+    { "kind": "weeks" },
+    { "kind": "nth", "n": 7 },
+    { "kind": "nth", "n": 62 },
+    { "kind": "nth", "n": 0 },
+    { "kind": "nth", "n": 99 },
+    { "kind": "map", "seq": [1, 8, 62] }
+  ]
+}
